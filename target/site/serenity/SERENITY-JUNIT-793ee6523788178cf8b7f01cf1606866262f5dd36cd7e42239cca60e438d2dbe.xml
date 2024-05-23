@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Automatización de REST API - PUT" skipped="0" tests="1" time="6.91" timestamp="2024-05-22 06:16:17"><testcase name="Modificar un usuario con el método PUT"><failure message="expected:&lt;404&gt; but was:&lt;200&gt;" type="java.lang.AssertionError">expected:&lt;404&gt; but was:&lt;200&gt;</failure><system-err>expected:&lt;404&gt; but was:&lt;200&gt;&#13;
+com.unac.restinteractions.RestInteractions.validatecode(RestInteractions.java:32)&#13;
+com.unac.apis.GoRestApi.validateResponse(GoRestApi.java:24)&#13;
+com.unac.stepsdefinitions.PutGoRestStepsdefinitions.seValidaQueElStatusCodeSeaYQueContengaElNombreYEmail(PutGoRestStepsdefinitions.java:28)&#13;
+✽.se valida que el status code sea 200 y que contenga el nombre "Yurayny T" y email "yura12@gmail.com"(file:///C:/Calidad%20de%20software/AutomatizacionApiRest/src/test/resources/com/unac/put_go_rest.feature:11)&#13;
+</system-err></testcase></testsuite>
